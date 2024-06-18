@@ -25,4 +25,4 @@ Check the daily logs and charts to see my progress!
 
 ## Tools
 
-- [Monkeytype](https://monkeytype.com/profile/shravangajula))
+- [Monkeytype]((https://monkeytype.com/profile/shravangajula))
