@@ -21,7 +21,7 @@ This project aims to analyze the impact of workforce migration on the economies 
 - Short-term and long-term implications for both countries.
 
 ## Tools & Technologies
-- **Data Analysis**: Python (Pandas, NumPy)
+- **Data Analysis**: SQL, Python (Pandas, NumPy)
 - **Visualization**: Power BI
 - **Data Sources**: Government reports, economic databases, workforce studies
 
