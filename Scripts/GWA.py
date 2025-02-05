@@ -4,38 +4,6 @@
 # In[59]:
 
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.preprocessing import LabelEncoder
-from xgboost import XGBClassifier
-from sklearn.metrics import accuracy_score
-import folium
-from folium.plugins import MarkerCluster
-
-
-# In[60]:
-
-
-#1 #Load the dataset
-file_path = "/Users/shravankumargajula/Documents/My Folder/Full Time/Global Workforce Analysis/global_workforce_analysis.csv"
-usGlobalVisas = pd.read_csv(file_path)
-print(usGlobalVisas.head())
-
-
-# In[61]:
-
-
-#2 # Unique case status values
-unique_case_status = usGlobalVisas['case_status'].unique()
-print(unique_case_status)
-
-
-# In[62]:
-
-
 #3 #Top 20 Employers with High Visa Applications for all Case Status
 top_employers_all = usGlobalVisas['employer_name'].value_counts().head(20)
 
@@ -342,40 +310,3 @@ plt.title('Trend of Certified Visas')
 plt.xlabel('Year')
 plt.ylabel('Count of Certified Visas')
 plt.show()
-
-
-# In[87]:
-
-
-import pandas as pd
-import mysql.connector
-
-# Load CSV
-df = pd.read_csv('/Users/shravankumargajula/Downloads/global_workforce_analysis.csv')
-
-# Connect to MySQL
-conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="root",
-    database="Local MySQL"
-)
-
-cursor = conn.cursor()
-
-# Insert data into MySQL
-for _, row in df.iterrows():
-    sql = """INSERT INTO global_visas (case_no, case_number, case_received_date, ...)
-             VALUES (%s, %s, %s, ...)"""
-    cursor.execute(sql, tuple(row))
-
-conn.commit()
-cursor.close()
-conn.close()
-
-
-# In[ ]:
-
-
-
-
