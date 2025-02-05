@@ -26,10 +26,10 @@ This project aims to analyze the impact of workforce migration on the economies 
 - **Data Sources:** Government reports, economic databases, workforce studies
 
 ## Dashboard Structure
-- **Page 1:** Overview of Workforce Migration
-- **Page 2:** Impact of Indian Professionals on the U.S. Economy
-- **Page 3:** Hypothetical Impact on India’s Economy
-- **Page 4:** Long-Term Benefits and Challenges for India
+1. **Number of Visa Applications:** India stands as the top country for visa applications to the U.S. — visualize the trends and growth of Indian applications over the years.
+2. **Top Most Cities by Visa Applications:** Display a breakdown of U.S. cities with the highest number of visa applications from Indian professionals.
+3. **Top Industries for Visa Applications:** Show the industries (IT, healthcare, engineering, etc.) from which the majority of visa applications are coming.
+4. **Top Employers Sponsoring Visas:** Highlight the top employers in the U.S. that are actively sponsoring work visas for Indian professionals.
 
 ## Features
 - **Scenario Simulation:** Explore different migration scenarios and their effects on both economies.
