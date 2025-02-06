@@ -3,6 +3,9 @@
 ## Project Overview
 This project aims to analyze the impact of workforce migration on the economies of India and the U.S. The study focuses on understanding the influence of Indian professionals in the U.S. and hypothesizing the potential economic changes in both countries if a large proportion of these professionals were to return to India.
 
+## Flow Diagram
+![Flow Diagram](https://github.com/shravangajula/Global-Workforce-Analysis/blob/main/Flow%20Diagram.jpeg)
+
 ## Objective
 - Visualize the trends of workforce migration from India to the U.S.
 - Analyze the impact of Indian professionals on the U.S. economy.
