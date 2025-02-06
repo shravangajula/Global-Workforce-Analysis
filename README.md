@@ -34,6 +34,11 @@ This project aims to analyze the impact of workforce migration on the economies 
 3. **Top Industries for Visa Applications:** Show the industries (IT, healthcare, engineering, etc.) from which the majority of visa applications are coming.
 4. **Top Employers Sponsoring Visas:** Highlight the top employers in the U.S. that are actively sponsoring work visas for Indian professionals.
 
+## Tableau Dashboard
+This interactive Tableau dashboard visualizes key insights from the data collected.  
+📌 **Snapshot of the Dashboard:**  
+![Tableau Dashboard](https://github.com/shravangajula/Global-Workforce-Analysis/blob/main/Visualizations/Tableau_Dashboard.jpeg)
+
 ## Features
 - **Scenario Simulation:** Explore different migration scenarios and their effects on both economies.
 - **Interactivity:** User-driven filtering and analysis of various factors.
