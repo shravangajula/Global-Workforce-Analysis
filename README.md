@@ -26,6 +26,7 @@ This project aims to analyze the impact of workforce migration on the economies 
 ## Tools & Technologies
 - **Data Analysis:** SQL (Subqueries, Common Table Expressions (CTEs), Window functions), Python (Pandas, NumPy), Jupyter Notebook
 - **Visualization:** Tableau (for dashboard creation)
+- **Flow Chart Design** Canva
 - **Data Sources:** Government reports, economic databases, workforce studies
 
 ## Dashboard Structure
