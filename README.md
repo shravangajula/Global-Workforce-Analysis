@@ -11,7 +11,7 @@ This project aims to analyze the impact of workforce migration on the economies 
 - Analyze the impact of Indian professionals on the U.S. economy.
 - Hypothesize the potential economic effects if 70% of Indian professionals were to return to India.
 - Explore long-term benefits and challenges for both economies.
-
+- 
 ## Data Collected
 - **Demographic Data:** Percentage of Indian professionals in the U.S.
 - **Workforce Data:** Number of skilled workers in the U.S. and India.
